@@ -4,6 +4,7 @@ import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-fireb
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import Loading from '../../Shared/Loading/Loading';
+import SocialLogin from '../SocalLogin/SocialLogin';
 
 
 const Register = () => {
@@ -49,7 +50,7 @@ const Register = () => {
 
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
-                    <Form.Control ref={emailRef} type="email" placeholder="Enter email" />
+                    <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
                     <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                     </Form.Text>
@@ -57,7 +58,7 @@ const Register = () => {
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Label>Password</Form.Label>
-                    <Form.Control ref={passwordRef} type="password" placeholder="Password" />
+                    <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check onClick={() => setAgree(!agree)} className={`ps-2 ${agree ? 'text-primary' : 'text-danger'}`} type="checkbox" label="Accept Terms and Conditions" />
@@ -67,6 +68,7 @@ const Register = () => {
                 </Button>
             </Form>
             <p>Already have an account? <Link to='/login' className='text-primary text-decoration-none' onClick={() => navigate('/login')}>Please Login</Link></p>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };

@@ -13,7 +13,7 @@ const RealEstates = () => {
             .then(data => setRealEstates(data));
     }, [])
     return (
-        <div id='realestates' className='container'>
+        <div id='realestates'>
             <h2> Real estates: {realEstates.length}</h2>
             <Row xs={1} md={2} lg={3} className="g-4">
                 {

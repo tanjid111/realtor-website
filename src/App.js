@@ -12,6 +12,7 @@ import Footer from './Pages/Shared/Footer/Footer';
 import About from './Pages/About/About';
 import RealEstateDetail from './Pages/RealEstateDetail/RealEstateDetail';
 import { createContext, useState } from 'react';
+import Blogs from './Pages/Home/Blogs/Blogs';
 
 export const RealEstateContext = createContext();
 
@@ -19,12 +20,13 @@ function App() {
   const [realEstates, setRealEstates] = useState([]);
   return (
     <RealEstateContext.Provider value={[realEstates, setRealEstates]}>
-      <div>
+      <div className='container'>
         <Header></Header>
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/home' element={<Home></Home>}></Route>
           <Route path='/realestate/:id' element={<RealEstateDetail></RealEstateDetail>}></Route>
+          <Route path='/blogs' element={<Blogs></Blogs>}></Route>
           <Route path='/about' element={<About></About>}></Route>
           <Route path='/login' element={<Login></Login>}></Route>
           <Route path='/register' element={<Register></Register>}></Route>

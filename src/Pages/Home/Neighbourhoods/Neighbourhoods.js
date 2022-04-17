@@ -12,7 +12,7 @@ const Neighbourhoods = () => {
             .then(data => setNeighbourhoods(data));
     }, [])
     return (
-        <div id='neighbourhoods' className='container'>
+        <div id='neighbourhoods'>
             <h2>Neighbourhoods: {neighbourhoods.length}</h2>
             <Row xs={1} md={2} lg={3} className="g-4">
                 {

@@ -11,7 +11,7 @@ const RealEstateDetail = () => {
     const realEstate = realEstates.find((realEstate) => realEstate.id == id);
 
     return (
-        <div className='container'>
+        <div>
             <h2 className='text-center py-5'>Welcome to: {realEstate.name}</h2>
             <div className='row text-center border'>
                 {realEstate.img.map(image => <Images

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Coal Harbour",
+        "description": "Despite the fact that Coal Harbour is right downtown, it’s a surprisingly calm little neighbourhood, right on the water’s edge. It’s even more surprising given its industrial history as a former shipyard sitting right next to the railway terminus. The area starts at Canada Place and stretches west to Stanley Park, and is bordered by Burrard Inlet to the north, West Georgia Street to the south. Coal Harbour is a charming mix of business and residential, being home to both the Vancouver Convention Centre as well as condo towers. Around this area you’ll find locals and visitors mingling on the Seawall, neighbourhood cafes and restaurants, a popular marina, and the odd harbour seal bobbing around and greeting passersby.",
+        "img": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_65,w_845/v1/clients/vancouverbc/Coal_Harbour_bf265961-0faa-411d-bada-d3d7def56036.gif",
+        "url": "https://www.destinationvancouver.com/vancouver/neighbourhoods/coal-harbour/"
+    },
+    {
+        "id": 2,
+        "name": "Gas Town",
+        "description": "Vancouver’s oldest neighbourhood, Gastown grew from a single tavern founded by John ‘Gassy Jack’ Deighton back in 1867. Today, the district retains its historic charm and independent spirit. Victorian architecture houses a thriving fashion scene, impeccably curated décor boutiques, one-of-a-kind galleries and some of the best culinary fare in Vancouver. It’s a gathering place for stylish locals and an ideal neighbourhood to explore on foot. Gastown lies along the north of the downtown Vancouver peninsula, from Richards east to Main Street, and south to Hastings Street.",
+        "img": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_65,w_845/v1/clients/vancouverbc/Gastown_d994e2e0-e8d3-4a82-9bf3-30c9469b5f1b.gif",
+        "url": "https://www.destinationvancouver.com/vancouver/neighbourhoods/gastown/"
+    },
+    {
+        "id": 3,
+        "name": "Lonsdale",
+        "description": "Situated on North Vancouver’s vibrant waterfront with views of Vancouver’s stunning downtown skyline to the south and soaring North Shore Mountains to the north, Lower Lonsdale is one of North Vancouver’s oldest and fastest-growing urban neighbourhoods. With a rich shipbuilding history, the Shipyards District in Lower Lonsdale has quickly become a hub of independent shops, restaurants, specialty food stores and more. Only a 12-minute Seabus ride away from Downtown Vancouver, there’s plenty of things to see and do while exploring this community-focused neighbourhood.",
+        "img": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_65,w_845/v1/clients/vancouverbc/ll_f6f535b3-5743-490c-8dfb-8855485f11b8.png",
+        "url": "https://www.destinationvancouver.com/vancouver/neighbourhoods/lower-lonsdale/"
+    }
+]

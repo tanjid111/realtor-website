@@ -5,7 +5,7 @@ import logo from '../../../images/logo.png'
 
 const Header = () => {
     return (
-        <>
+        <div className='container'>
             <Navbar collapseOnSelect sticky='top' expand="lg" bg="primary" variant="dark">
                 <Container>
                     <Navbar.Brand as={Link} to="/">
@@ -15,8 +15,8 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#features">RealEstates</Nav.Link>
-                            <Nav.Link href="#pricing">Neighbourhood</Nav.Link>
+                            <Nav.Link href="home#realestates">RealEstates</Nav.Link>
+                            <Nav.Link href="home#neighbourhoods">Neighbourhoods</Nav.Link>
 
                         </Nav>
                         <Nav>
@@ -28,7 +28,7 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </>
+        </div>
     );
 };
 

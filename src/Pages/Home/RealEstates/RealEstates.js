@@ -13,8 +13,8 @@ const RealEstates = () => {
             .then(data => setRealEstates(data));
     }, [])
     return (
-        <div className='container'>
-            <h2>Lsit of all the real estates: {realEstates.length}</h2>
+        <div id='realestates' className='container'>
+            <h2> Real estates: {realEstates.length}</h2>
             <Row xs={1} md={2} lg={3} className="g-4">
                 {
                     realEstates.map(realEstate => <RealEstate

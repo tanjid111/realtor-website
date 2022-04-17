@@ -2,10 +2,10 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            <h2>This is footer</h2>
-        </div>
+        <footer className='text-center mt-3'>
+            <p><small>copyright @{new Date().getFullYear()} All rights reserved.</small></p>
+        </footer>
     );
 };
 
-export default Footer; <h2>This is footer</h2>
+export default Footer;

@@ -8,4 +8,4 @@ const About = () => {
     );
 };
 
-export default About; <h2>This is about me</h2>
+export default About;

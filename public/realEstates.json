@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "408-19939 55a Ave",
+        "price": "$468,000",
+        "description": "Check out this PRIVATE TOP FLOOR 1 bed, 1 bath WITH DEN at rentable Madison Crossing! The kitchen features rich cabinets, granite countertops & new stainless steel appliances. Lots of counterspace and breakfast bar, perfect for entertaining. Fresh paint, open living room, the bathroom has his & her sinks. The master bedroom has A/C for those hot nights plus walk in closet. Great den for the home office or extra in-suite storage, 1 underground secure parking stall, bike storage, gym, workshop, and amenities rooms. Close to restaurants, grocery stores, parks, and public transit, including the future Skytrain coming to Langley! Pets: 1 dog or 1 cat, maximum 65 lbs and rentals allowed.",
+        "img": [
+            "https://i.ibb.co/0KFc3LR/RE-1-1.jpg",
+            "https://i.ibb.co/yhz08jp/RE-1-2.jpg",
+            "https://i.ibb.co/ZVD1t2X/RE-1-3.jpg",
+            "https://i.ibb.co/N6JwrY7/RE-1-4.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "A114-20087 68 Ave",
+        "price": "$375,000",
+        "description": "Modern 1BR 1BTH Willoughby Heights condo. Luxury plank flooring draw you into an airy residence illuminated by oversized windows. Your unobstructed, chef-inspired kitchen features sleek, stainless steel Samsung appliances gleaming against chic, two-toned cabinetry & crisp, quartz counters with a handy breakfast bar - perfect for casual meals. Unwind in your naturally well-lit living area beneath 9ft ceilings then start the day in your open bedroom with a generous closet. Your spa-like bathroom boasts a deep soaker tub surrounded by porcelain tile alongside a quartz-topped vanity. Highly walkable, Park Hill is steps to bus stops, Starbucks, Walmart, Costco, Willowbrook Shopping & numerous conveniences. Quickly commute to neighbouring cities via 200 Street & Fraser Highway only minutes away.",
+        "img": [
+            "https://i.ibb.co/k2ng9xd/RE-2-1.jpg",
+            "https://i.ibb.co/zPdcLZS/RE-2-2.jpg",
+            "https://i.ibb.co/Z1KbWFm/RE-2-3.jpg",
+            "https://i.ibb.co/PFnzkKy/RE-2-4.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "211-20343 72 Ave ",
+        "price": "$499,900",
+        "description": "The Jericho is one of the first new condo developments in charming South Willoughby. Just steps to access Langley’s central greenway, or explore your new backyard with The Jericho’s shared electric bike system. Radiant finishes featuring laminate flooring and flat panel trim compliment, AC in the master bedroom. Stylish open floor plan.In the kitchen, you’ll find sleek stainless-steel appliances and modern granite countertops. The contemporary style bathroom is complete with marble tile and Kohler fixtures. This unit is facing inside the quiet court yard away from the main road. Estimated completion fall 2022, 1 parking and 1 locker. Pets and Rentals are welcome!",
+        "img": [
+            "https://i.ibb.co/L0L3NbQ/RE-3-1.jpg",
+            "https://i.ibb.co/BfgQBMx/RE-3-2.jpg",
+            "https://i.ibb.co/Vt42gF3/RE-3-3.jpg",
+            "https://i.ibb.co/bsRQNG7/RE-3-4.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "212-11580 223 St",
+        "price": "$469,900",
+        "description": "Welcome to RIVER'S EDGE!! Incredibly bright corner home currently covered in cherry blossoms from every window with southerly views of Fraser River is an absolute must see! Large covered Deck to enjoy the gorgeous views, high ceilings, crown moulding, fresh natural paint throughout, newer laminate floors, fireplace, SS appliances and granite counter tops and a good size kitchen island with tons of cupboard space. Located just minutes away from town centre shopping, dining, recreation, the West Coast Express and Port Haney Wharf. The well maintained building has a bike room, visitor parking, and allows pets and rentals! ",
+        "img": [
+            "https://i.ibb.co/rFPmYMW/RE-4-1.jpg",
+            "https://i.ibb.co/fqSCKS7/RE-4-2.jpg",
+            "https://i.ibb.co/yWw2pD2/RE-4-3.jpg",
+            "https://i.ibb.co/k1dWfY5/RE-4-4.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "206-12320 222 St",
+        "price": "$519,000",
+        "description": "Welcome to The 222 - A modern building that was completed in 2020 and still has that new atmosphere! This 794sqft unit w/ 1 bed, 2 bath and Den has a functional open floor plan that is as good as it gets for comfort and entertaining. The kitchen includes a centre island, quartz countertops, two tone Grey/White cabinets and SS appliances. An eating area separates the Kitchen from the cozy living room, which has access to a good size East facing balcony. Dual Heat pump units that are individually controlled provide central Air conditioning for the ultimate in comfortable living no matter the temperature outside. 1 underground parking, 1 storage locker, Rentals allowed, 1 pet allowed. Centrally located home that is close to everything!",
+        "img": [
+            "https://i.ibb.co/4m5gcjv/RE-5-1.jpg",
+            "https://i.ibb.co/p44JHQZ/RE-5-2.jpg",
+            "https://i.ibb.co/WV0SXcD/RE-5-3.jpg",
+            "https://i.ibb.co/J50Dx6p/RE-5-4.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "411-12310 222 St ",
+        "price": "$499,000",
+        "description": "Top Floor 2 Bedroom and 2 Bathroom Unit centrally located in the heart of Maple Ridge close to schools, shopping, restaurants and transit. Luxury finishes with 9' ceilings, stainless steel samsung appliances, built in A/C, quartz counter and LED lighting. Lots of natural light in this open concept home from the oversized windows. Master bedroom with ensuite and the 2nd bedroom and bathroom on opposite side of the unit. Great for first time buyers or investors! Rentals allowed and one pet. Storage locker and one parking included, lots of street parking around the building as well.",
+        "img": [
+            "https://i.ibb.co/ZGccjGY/RE-6-1.jpg",
+            "https://i.ibb.co/QcBMPnc/RE-6-2.jpg",
+            "https://i.ibb.co/sqS2yHF/RE-6-3.jpg",
+            "https://i.ibb.co/qMvJF2Y/RE-6-4.jpg"
+        ]
+    }
+]

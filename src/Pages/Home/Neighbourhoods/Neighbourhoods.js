@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Neighbourhood = () => {
+const Neighbourhoods = () => {
     return (
         <div>
             <h2>This is list of Neighbourhoods</h2>
@@ -8,4 +8,4 @@ const Neighbourhood = () => {
     );
 };
 
-export default Neighbourhood; <h2>This is Neighbourhood</h2>
+export default Neighbourhoods;

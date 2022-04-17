@@ -1,9 +1,28 @@
-import React from 'react';
+import React, { useContext, useEffect, useState } from 'react';
+import { Row } from 'react-bootstrap';
+import { RealEstateContext } from '../../../App';
+import RealEstate from '../RealEstate/RealEstate';
 
 const RealEstates = () => {
+    // const [realEstates, setRealEstates] = useState([]);
+    const [realEstates, setRealEstates] = useContext(RealEstateContext);
+
+    useEffect(() => {
+        fetch('realEstates.json')
+            .then(res => res.json())
+            .then(data => setRealEstates(data));
+    }, [])
     return (
-        <div>
-            <h2>Lsit of all the real estates</h2>
+        <div className='container'>
+            <h2>Lsit of all the real estates: {realEstates.length}</h2>
+            <Row xs={1} md={2} lg={3} className="g-4">
+                {
+                    realEstates.map(realEstate => <RealEstate
+                        key={realEstate.id}
+                        realEstate={realEstate}
+                    ></RealEstate>)
+                }
+            </Row>
         </div>
     );
 };

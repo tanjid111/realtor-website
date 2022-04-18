@@ -1,12 +1,18 @@
 import React, { useContext } from 'react';
 import { Button, Card } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import { RealEstateContext } from '../../App';
+import BookShowing from '../BookShowing/BookShowing';
 import Images from '../Home/Images/Images';
 
 const RealEstateDetail = () => {
     const { id } = useParams()
     const [realEstates] = useContext(RealEstateContext);
+    const navigate = useNavigate();
+
+    const navigateToBookShowing = (id) => {
+        navigate(`/bookshowing/${id}`)
+    }
 
     const realEstate = realEstates.find((realEstate) => realEstate.id == id);
 
@@ -23,7 +29,7 @@ const RealEstateDetail = () => {
                     <Card.Title>{realEstate.name}</Card.Title>
                     <Card.Text>{realEstate.price}</Card.Text>
                     <Card.Text>{realEstate.description}</Card.Text>
-                    <Button variant="primary">Book Showing</Button>
+                    <Button onClick={() => navigateToBookShowing(id)} variant="primary">Book Showing</Button>
                 </Card.Body>
             </Card>
         </div>

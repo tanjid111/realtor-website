@@ -13,7 +13,7 @@ const Neighbourhood = ({ neighbourhood }) => {
                     <Card.Text>
                         {description}
                     </Card.Text>
-                    <a class='btn btn-primary px-4 py-2 mt-auto' href={url} target="_blank">Explore</a>
+                    <a className='btn btn-primary px-4 py-2 mt-auto' href={url} target="_blank">Explore</a>
                 </Card.Body>
             </Card>
         </Col>

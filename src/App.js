@@ -6,7 +6,6 @@ import Home from './Pages/Home/Home/Home';
 import RealEstate from './Pages/Home/RealEstate/RealEstate';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
-import Checkout from './Pages/Checkout/Checkout';
 import NotFound from './Pages/Shared/NotFound/NotFound';
 import Footer from './Pages/Shared/Footer/Footer';
 import About from './Pages/About/About';
@@ -14,6 +13,7 @@ import RealEstateDetail from './Pages/RealEstateDetail/RealEstateDetail';
 import { createContext, useState } from 'react';
 import Blogs from './Pages/Home/Blogs/Blogs';
 import RequireAuth from './Pages/Login/RequrieAuth/RequireAuth';
+import BookShowing from './Pages/BookShowing/BookShowing';
 
 export const RealEstateContext = createContext();
 
@@ -31,9 +31,9 @@ function App() {
           <Route path='/about' element={<About></About>}></Route>
           <Route path='/login' element={<Login></Login>}></Route>
           <Route path='/register' element={<Register></Register>}></Route>
-          <Route path='/checkout' element={
+          <Route path='/bookshowing/:id' element={
             <RequireAuth>
-              <Checkout></Checkout>
+              <BookShowing></BookShowing>
             </RequireAuth>
           }></Route>
           <Route path='*' element={<NotFound></NotFound>}></Route>

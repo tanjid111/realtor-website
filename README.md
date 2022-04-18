@@ -1,3 +1,27 @@
+# Realtor Website
+
+Livesite Link:
+
+Features:
+- This is a single page app made using React and React Router
+- The website shows real estate listings with price, images and description.
+- The website also shows some information on the surrounding neighbourhood.
+- The user is able to check all the information in details.
+- The user is also able to register using email/password/facebook/google.
+- The user is also able to book a showing with the realtor.
+- The booking of showing is also a protected route where the user needs to be authenticated first before being authorized to view the booking form.
+- The user is able to fill up a form with all the details in the booking form.
+
+# Technology used
+- React 
+- JSX
+- React Router (for authentication and hosting)
+- Google Firebase
+- React firebase hooks
+- React toastify
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

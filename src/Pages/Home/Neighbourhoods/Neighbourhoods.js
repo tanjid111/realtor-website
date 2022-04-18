@@ -4,8 +4,6 @@ import Neighbourhood from '../Neighbourhood/Neighbourhood';
 
 const Neighbourhoods = () => {
     const [neighbourhoods, setNeighbourhoods] = useState([]);
-
-
     useEffect(() => {
         fetch('neighbourhoods.json')
             .then(res => res.json())
@@ -17,7 +15,7 @@ const Neighbourhoods = () => {
             <Row xs={1} md={2} lg={3} className="g-4">
                 {
                     neighbourhoods.map(neighbourhood => <Neighbourhood
-                        key={neighbourhood.key}
+                        key={neighbourhood.id}
                         neighbourhood={neighbourhood}
                     ></Neighbourhood>)
                 }

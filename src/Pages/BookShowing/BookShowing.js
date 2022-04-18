@@ -9,9 +9,12 @@ import 'react-toastify/dist/ReactToastify.css';
 import Loading from '../Shared/Loading/Loading';
 
 const BookShowing = () => {
+    //Getting booking ID
     const { id } = useParams()
+    //Calling data using context API
     const [realEstates] = useContext(RealEstateContext);
     const [user, loading] = useAuthState(auth);
+    //find the appropriate real estate using the data
     const realEstate = realEstates.find((realEstate) => realEstate.id == id);
 
     const emailRef = useRef('');
@@ -32,6 +35,9 @@ const BookShowing = () => {
         if (address && userName && phone) {
             toast('Booking Confirmed!');
         }
+        else {
+            toast('Please fill in the form')
+        }
     }
 
     return (
@@ -40,7 +46,7 @@ const BookShowing = () => {
             <h3 className='text-center text-primary'>Booking Showing for Apartment no: {id}</h3>
             <h3 className='text-center text-primary'>{realEstate.name}</h3>
             <div className='text-center'>
-                <img className='img-fluid' width="300" src={realEstate.img[0]} alt="" />
+                <img className='img-fluid' width="300" src={realEstate.img[0].img} alt="" />
             </div>
 
             <Form>

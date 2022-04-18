@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import logo from '../../../images/logo.png'
-import { LinkContainer } from 'react-router-bootstrap';
 
 
 const Header = () => {
@@ -24,8 +23,8 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="home#realestates">RealEstates</Nav.Link>
-                            <Nav.Link href="home#neighbourhoods">Neighbourhoods</Nav.Link>
+                            <Nav.Link href="/home#realestates">RealEstates</Nav.Link>
+                            <Nav.Link href="/home#neighbourhoods">Neighbourhoods</Nav.Link>
 
                         </Nav>
                         <Nav>

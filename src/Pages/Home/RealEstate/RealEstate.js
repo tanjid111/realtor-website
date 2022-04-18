@@ -13,7 +13,7 @@ const RealEstate = ({ realEstate }) => {
         <div>
             <Col>
                 <Card>
-                    <Card.Img variant="top" src={img[0]} />
+                    <Card.Img variant="top" src={img[0].img} />
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>
                         <Card.Text>{price}</Card.Text>

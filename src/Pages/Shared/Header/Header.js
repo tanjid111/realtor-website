@@ -36,7 +36,7 @@ const Header = () => {
                                     <Nav.Link className='text-white' onClick={handleSignOut} as={Link} to="home">Sign Out</Nav.Link>
                                     : <Nav.Link as={Link} to="login">Login</Nav.Link>
                             }
-
+                            <p className='text-light py-2'>{user?.displayName && user.displayName}</p>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

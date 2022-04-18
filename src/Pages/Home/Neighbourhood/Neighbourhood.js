@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, Card, CardGroup, Col, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Card, Col } from 'react-bootstrap';
+
 
 const Neighbourhood = ({ neighbourhood }) => {
     const { name, description, img, url } = neighbourhood;

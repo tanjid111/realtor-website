@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Pages/Shared/Header/Header';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home/Home';
-import RealEstate from './Pages/Home/RealEstate/RealEstate';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import NotFound from './Pages/Shared/NotFound/NotFound';

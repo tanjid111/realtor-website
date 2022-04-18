@@ -2,7 +2,7 @@ import React, { useContext, useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useParams } from 'react-router-dom';
-import { toast } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
 import { RealEstateContext } from '../../App';
 import auth from '../../firebase.init';
 import 'react-toastify/dist/ReactToastify.css';
@@ -23,14 +23,15 @@ const BookShowing = () => {
         return <Loading></Loading>
     }
 
-    const handleBooking = () => {
+    const handleBooking = async (e) => {
+        e.preventDefault();
         const email = emailRef.current.value;
         const userName = userNameRef.current.value
         const address = addressRef.current.value
         const phone = phoneRef.current.value
-
-        toast('Booking Confirmed!');
-
+        if (address && userName && phone) {
+            toast('Booking Confirmed!');
+        }
     }
 
     return (
@@ -39,7 +40,7 @@ const BookShowing = () => {
             <h3 className='text-center text-primary'>Booking Showing for Apartment no: {id}</h3>
             <h3 className='text-center text-primary'>{realEstate.name}</h3>
             <div className='text-center'>
-                <img width="300" src={realEstate.img[0]} alt="" />
+                <img className='img-fluid' width="300" src={realEstate.img[0]} alt="" />
             </div>
 
             <Form>
@@ -65,12 +66,13 @@ const BookShowing = () => {
                 </Form.Group>
 
 
-                <Button variant="primary" type="submit">
+                <Button onClick={handleBooking} variant="primary" type="submit">
                     Submit
                 </Button>
 
-                <button className='btn btn-link text-primary text-decoration-none' onClick={handleBooking}>Reset Password</button>
+                {/* <button className='btn btn-link text-primary text-decoration-none' onClick={handleBooking}>Submit</button> */}
             </Form>
+            <ToastContainer />
         </div>
     );
 };

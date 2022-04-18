@@ -4,7 +4,6 @@ import { RealEstateContext } from '../../../App';
 import RealEstate from '../RealEstate/RealEstate';
 
 const RealEstates = () => {
-    // const [realEstates, setRealEstates] = useState([]);
     const [realEstates, setRealEstates] = useContext(RealEstateContext);
 
     useEffect(() => {

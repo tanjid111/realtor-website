@@ -1,8 +1,8 @@
 # Realtor Website
 
-Livesite Link:
+### Livesite Link:
 
-Features:
+### Features:
 - This is a single page app made using React and React Router
 - The website shows real estate listings with price, images and description.
 - The website also shows some information on the surrounding neighbourhood.
@@ -12,7 +12,7 @@ Features:
 - The booking of showing is also a protected route where the user needs to be authenticated first before being authorized to view the booking form.
 - The user is able to fill up a form with all the details in the booking form.
 
-# Technology used
+### Technology used
 - React 
 - JSX
 - React Router (for authentication and hosting)

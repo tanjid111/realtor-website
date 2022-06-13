@@ -4,7 +4,7 @@ const Blogs = () => {
     return (
         <div>
             <h2 className='text-primary text-center'>This is blogs section</h2>
-            {/* <h2 className='text-danger'> Question1: Difference between authorization and authentication</h2>
+            <h2 className='text-danger'> Question1: Difference between authorization and authentication</h2>
             <h4 className='text-primary'>{`Authentication comes before the authorization process.
                 During authentication process the user verifies their identity by providing email address and password.
                 At times user will need to verify their email address by clicking an email that they will get. Firebase can
@@ -18,7 +18,7 @@ const Blogs = () => {
             <br />
             <h2 className='text-danger'>Question 3: What other services does firebase provide other than authentication?</h2>
             <h4 className='text-primary'> {`Most useful services that firebase provides are cloud firestore, cloud functions, authentication, hosting, 
-            cloud storage, google analytics, predictions, cloud messaging, etc`}</h4 > */}
+            cloud storage, google analytics, predictions, cloud messaging, etc`}</h4 >
 
         </div >
     );
